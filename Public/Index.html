@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html>
+<head><title>Login • Instagram</title><meta name="viewport" content="width=device-width, initial-scale=1.0"><link rel="stylesheet" href="/style.css"></head>
+<body>
+    <div class="container">
+        <div id="login-form" class="form-box"><img class="logo" src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2a/Instagram_logo.svg/1200px-Instagram_logo.svg.png"><form action="/login" method="POST"><input type="text" name="username" placeholder="Username" required><input type="password" name="password" placeholder="Password" required><button type="submit" class="btn">Log In</button></form></div>
+        <div id="signup-form" class="form-box" style="display: none;"><img class="logo" src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2a/Instagram_logo.svg/1200px-Instagram_logo.svg.png"><h2 class="sub-heading">Sign up to see photos and videos.</h2><form action="/signup" method="POST"><input type="text" name="username" placeholder="Username" required><input type="password" name="password" placeholder="Password" required><button type="submit" class="btn">Sign Up</button></form></div>
+        <div class="switch-box"><p id="switch-text">Don't have an account? <a id="show-signup">Sign up</a></p></div>
+        <div id="message"></div>
+    </div>
+    <script src="/script.js"></script>
+</body>
+</html>
